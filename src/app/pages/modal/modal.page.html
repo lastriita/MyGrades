@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{name}}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="salirSinArgumentos()">Cancelar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #formulario="ngForm" (submit)="submit()" [formGroup]="notaForm">
+    <ion-item>
+      <ion-label position="floating">Nota:</ion-label>
+      <ion-input type="number" class="form-control" formControlName="nota" required></ion-input>
+    </ion-item>
+    <ion-button [disabled]="formulario.invalid" expand="block" class="btn btn-success" type="submit">Cambiar nota</ion-button>
+  </form>
+  <ion-button expand="block" (click)="vaciar()">Vaciar nota</ion-button>
+</ion-content>

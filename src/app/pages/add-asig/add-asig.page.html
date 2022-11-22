@@ -1,0 +1,59 @@
+<app-header titulo="Añadir Asignatura" mode="ios"></app-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+    <form #formulario="ngForm" (submit)="submit()" [formGroup]="asignaturaForm">
+      <ion-button *ngIf="imagenURL==''; else notShow" size="large" expand="full" color="success" routerLink="buscarfoto">
+        +
+        <ion-icon name="image-outline"></ion-icon>
+      </ion-button>
+      <ng-template #notShow>
+        <img class="icon" src="{{imagenURL}}" routerLink="buscarfoto"/>
+      </ng-template>
+      <ion-list lines="full" class="ion-no-margin ion-no-padding">
+        <ion-item>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input type="text" class="form-control" formControlName="name" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Curso</ion-label>
+          <ion-select interface="popover" class="form-control" formControlName="curso" #C (ionChange)="onChange(C.value)" required>
+            <ion-select-option *ngFor="let d of data" value={{d.name}}>{{d.name}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item *ngIf="curso!=null">
+          <ion-label position="floating">Etapa</ion-label>
+          <ion-select interface="popover" class="form-control" formControlName="etapa" required>
+            <ion-select-option value="anual">Anual</ion-select-option>
+            <ion-select-option *ngFor="let c of curso.etapas" value={{c.name}}>{{c.name}}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+      <ion-list-header>Ponderaciones</ion-list-header>
+
+      <div formArrayName="ponderaciones" *ngFor="let p of ponderaciones.controls; let i=index">
+        <div [formGroupName]="i">
+          <ion-item lines="none">
+              <ion-input placeholder="Prueba" class="form-control" formControlName="name" required></ion-input>
+              <ion-buttons *ngIf="i!=0" slot="end">
+                <ion-button class="btn btn-danger" (click)="removePonderacion(i)">
+                  <ion-icon name="trash"></ion-icon>
+                </ion-button>
+              </ion-buttons>
+          </ion-item>
+          <ion-item>
+            <ion-input type="number"  placeholder="%" class="form-control" formControlName="peso" required></ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+      <ion-button size="medium" expand="full" (click)="agregarPonderacion()">
+        Añadir ponderación
+      </ion-button>
+
+      <div class="ion-padding">
+        <ion-button [disabled]="formulario.invalid" expand="block" class="btn btn-success" type="submit">Añadir</ion-button>
+      </div>
+    </form>
+</ion-content>

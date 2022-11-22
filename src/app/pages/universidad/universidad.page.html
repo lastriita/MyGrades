@@ -1,0 +1,38 @@
+<ion-content  [fullscreen]="true">
+  <ion-list>
+    <img class="icon" src="{{universidad.img}}"/>
+    <ion-list-header>{{universidad.name}}</ion-list-header>
+    <ion-item class="ion-no-border">
+      <a href="{{universidad.url}}">
+        <ion-label>
+          <ion-icon name="globe-outline"></ion-icon>
+          {{universidad.url}}
+        </ion-label>
+      </a>
+    </ion-item>
+
+    <ion-list-header>Carreras ({{carreras.length}})</ion-list-header>
+    <ion-header>
+      <ion-toolbar>
+        <ion-searchbar placeholder="Busca carreras" animated (ionChange)="buscar($event)"></ion-searchbar>
+      </ion-toolbar>
+    </ion-header>
+    <ion-card *ngFor="let c of carreras | filtro:textoBuscar">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="8">
+            <ion-card-content>
+              {{c.name}}
+            </ion-card-content>
+          </ion-col>
+          <ion-col size="4">
+            <ion-card-header>
+                {{c.Notas}}
+            </ion-card-header>
+          </ion-col>
+        </ion-row>      
+      </ion-grid>
+    </ion-card>
+  </ion-list>
+
+</ion-content>

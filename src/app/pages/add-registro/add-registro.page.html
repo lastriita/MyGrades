@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Añadir Curso
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img class="icon" src="./assets/addcurso.jpg" alt="">
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input required #name></ion-input>
+      </ion-item>
+
+      <ion-item>
+      <ion-label position="floating">Tipo</ion-label>
+      <ion-select interface="popover" #C>
+        <ion-select-option value="Sem">Semestral</ion-select-option>
+        <ion-select-option value="Trim">Trimestral</ion-select-option>
+      </ion-select>
+      </ion-item>
+
+    <div class="ion-padding">
+      <ion-button expand="block" class="ion-no-margin" (click)="add(name.value, C.value)">Añadir</ion-button>
+    </div>
+
+  </ion-list>
+</ion-content>

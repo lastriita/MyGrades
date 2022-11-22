@@ -1,0 +1,86 @@
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      Explorar
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="calculadora">
+        <ion-icon name="calculator-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+  <ion-header collapse="condense" class="ion-no-border">
+    <ion-toolbar>
+      <ion-title size="large">Explorar</ion-title>
+    </ion-toolbar>
+    <ion-toolbar>
+      <ion-searchbar placeholder="Busca universidades y carreras" animated (ionChange)="buscar($event)"></ion-searchbar>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-segment [(ngModel)]="mode">
+    <ion-segment-button value="uni">
+      <ion-label>Universidad</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="carre">
+      <ion-label>Carreras</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div *ngIf="changeFormat()">
+    <!--<ion-virtual-scroll [items]='data | filtro:textoBuscar'>
+        <ion-card *virtualItem='let item' button="true" [routerLink]="[item.name]">
+          <img class="icon" src="{{item.img}}"/>
+          <ion-card-header>
+            <ion-card-subtitle>{{item.name}}</ion-card-subtitle>
+            <ion-card-title>{{item.name}}</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+    </ion-virtual-scroll>-->
+    <ion-grid>
+    <ion-row>
+    <ion-col *ngFor="let item of data | filtro:textoBuscar">
+    <ion-card button="true" [routerLink]="[item.name]">
+      <img class="icon" *ngIf="item.img!=null" src="{{item.img}}"/>
+      <ion-card-header>
+        <ion-card-title>{{item.name}}</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    </ion-col>
+    </ion-row>
+    </ion-grid>
+  </div>
+
+  <div *ngIf="!changeFormat()">
+    <ion-virtual-scroll [items]='notas_corte | filtro:textoBuscar'>
+        <ion-card button="true" *virtualItem='let item'>
+          <ion-card-header>
+            <h3>{{item.name}}</h3>
+            <ion-card-subtitle>{{item.Universidad}}</ion-card-subtitle>
+            <ion-card-title>{{item.Notas}}</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+    </ion-virtual-scroll>
+  </div>
+
+  <!--<div *ngIf="!changeFormat()">
+    <div *ngFor="let n of data | filtro:textoBuscar">
+      <ion-card button="true">
+        <ion-card-header>
+          <h3>{{n.name}}</h3>
+          <ion-card-subtitle>{{n.Universidad}}</ion-card-subtitle>
+          <ion-card-title>{{n.Notas}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <ion-infinite-scroll threshold="120px" (ionInfinite)="loadData($event)">
+      <ion-infinite-scroll-content
+        loadingSpinner="crescent"
+        loadingText="Loading more data...">
+      </ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </div>-->
+</ion-content>

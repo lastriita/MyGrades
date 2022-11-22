@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Añadir Curso
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+  <img class="icon" src="./assets/addcurso.jpg" alt="">
+  <form #formulario="ngForm" (submit)="submit()" [formGroup]="cursoForm">
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input class="form-control" formControlName="name" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+      <ion-label position="floating">Tipo</ion-label>
+      <ion-select interface="popover"class="form-control" formControlName="etapas" required>
+        <ion-select-option value="Sem">Semestral</ion-select-option>
+        <ion-select-option value="Trim">Trimestral</ion-select-option>
+      </ion-select>
+      </ion-item>
+
+      <div class="ion-padding">
+        <ion-button [disabled]="formulario.invalid" expand="block" class="btn btn-success" type="submit">Añadir</ion-button>
+      </div>
+    </ion-list>
+  </form>
+</ion-content>
+

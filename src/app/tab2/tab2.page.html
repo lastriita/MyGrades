@@ -1,0 +1,114 @@
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      Notas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+  <ion-card class="carta2">
+    <ion-item lines="none">
+      <ion-label>Curso</ion-label>
+      <ion-select interface="popover" value={{cursoActual}} #C (ionChange)="onChange(C.value)">
+        <ion-select-option *ngFor="let d of data" value={{d.name}}>{{d.name}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-card>
+
+    <div *ngIf="curso!=null">
+    <div *ngFor="let etapa of curso.etapas; let j=index">
+      <ion-item-divider mode="ios">
+        <ion-label>{{etapa.name}}</ion-label>
+      </ion-item-divider>
+
+      <div *ngFor="let a of etapa.asignaturas; let i=index">
+        <ion-card class="carta">
+          <ion-item button (click)="a.expand=!a.expand" (click)="expandir(j, i)" lines="none">
+            <ion-label>{{a.name}}</ion-label>
+            <div *ngIf="getNotaMinima(a)!=null; else definitiva">
+              <ion-note slot="end" color="secondary">{{getNotaProvisional(a)}}</ion-note>
+            </div>
+            <ng-template #definitiva>
+              <ion-note slot="end">{{getNotaProvisional(a)}}</ion-note>
+            </ng-template>
+          </ion-item>
+
+          <div *ngIf="indices[j].indices[i]">
+            <div *ngIf="getNotaProvisional(a)!=null; else sinNotas">
+            <div *ngIf="getNotaMinima(a)!=null; else notaMedia">
+            <ion-slides [options]="sliderConfig">
+              <ion-slide>
+                <ion-card button="true">
+                  <ion-card-header>
+                    <ion-card-title>
+                      {{getNotaMinima(a)}}
+                    </ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content class="letra">
+                    Minima
+                  </ion-card-content>
+                </ion-card>
+              </ion-slide>
+              <ion-slide>
+                <ion-card button="true">
+                  <ion-card-header>
+                    <ion-card-title>
+                      {{getNotaProvisional(a)}}
+                    </ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content class="letra">
+                    Provisional
+                  </ion-card-content>
+                </ion-card>
+              </ion-slide>
+              <ion-slide>
+                <ion-card button="true">
+                  <ion-card-header>
+                    <ion-card-title>
+                      {{getNotaMaxima(a)}}
+                    </ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content class="letra">
+                    Máxima
+                  </ion-card-content>
+                </ion-card>
+              </ion-slide>
+            </ion-slides>
+          </div>
+          </div>
+
+          <ng-template #sinNotas>
+            <ion-slides>
+              <ion-slide>
+                <ion-card button="false">
+                  <ion-card-content class="letra">
+                    Añade notas de la asignatura para ver tu media
+                  </ion-card-content>
+                </ion-card>
+              </ion-slide>
+            </ion-slides>
+          </ng-template>
+
+          <ng-template #notaMedia>
+            <ion-slides [options]="sliderConfig">
+              <ion-slide>
+                <ion-card button="true">
+                  <ion-card-header>
+                    <ion-card-title>
+                      {{getNotaProvisional(a)}}
+                    </ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content class="letra">
+                    Nota Media
+                  </ion-card-content>
+                </ion-card>
+              </ion-slide>
+            </ion-slides>
+          </ng-template>
+      </div>
+      </ion-card>
+    </div>
+  </div>
+  </div>
+</ion-content>

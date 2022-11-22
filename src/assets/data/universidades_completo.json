@@ -1,0 +1,842 @@
+[
+  {
+    "universidad": "Universidad Pontificia Comillas",
+    "url": "https://www.comillas.edu/es/"
+  },
+  {
+    "universidad": "Universidad Complutense de Madrid",
+    "url": "https://www.ucm.es"
+  },
+  {
+    "universidad": "Universidad Carlos III de Madrid",
+    "url": "http://www.uc3m.es"
+  },
+  {
+    "universidad": "Universitat Politècnica de València",
+    "url": "http://www.upv.es/"
+  },
+  {
+    "universidad": "Universidad de Salamanca",
+    "url": "http://www.usal.es/"
+  },
+  {
+    "universidad": "Universidad Autónoma de Madrid",
+    "url": "http://www.uam.es/"
+  },
+  {
+    "universidad": "Universitat Autònoma de Barcelona",
+    "url": "http://www.uab.es/lletres"
+  },
+  {
+    "universidad": "Universidad de Burgos",
+    "url": "http://www.ubu.es"
+  },
+  {
+    "universidad": "Universidad del País Vasco",
+    "url": "https://https://www.ehu.eus/es/home/"
+  },
+  {
+    "universidad": "Universidad Francisco de Vitoria",
+    "url": "https://www.ufv.es"
+  },
+  {
+    "universidad": "Universidad de Deusto",
+    "url": "http://www.deusto.es/"
+  },
+  {
+    "universidad": "Universitat Politècnica de Catalunya",
+    "url": "https://upc.edu/es"
+  },
+  {
+    "universidad": "Universidad Alfonso X el Sabio",
+    "url": "http://www.uax.com"
+  },
+  {
+    "universidad": "Universidad Europea de Madrid",
+    "url": "https://madrid.universidadeuropea.es/"
+  },
+  {
+    "universidad": "Universidad CEU San Pablo",
+    "url": "http://www.ceu.es/"
+  },
+  {
+    "universidad": "Mondragon Unibertsitatea",
+    "url": "https://www.mondragon.edu/es/"
+  },
+  {
+    "universidad": "Universidad de Navarra",
+    "url": "https://unav.edu/"
+  },
+  {
+    "universidad": "IE University",
+    "url": "http://www.ie.edu/universidad"
+  },
+  {
+    "universidad": "Universidad Rey Juan Carlos",
+    "url": "http://www.urjc.es/"
+  },
+  {
+    "universidad": "Universidad de Alcalá",
+    "url": "http://uah.es/"
+  },
+  {
+    "universidad": "Universidad de Sevilla",
+    "url": "http://fct.us.es/"
+  },
+  {
+    "universidad": "Universitat de Barcelona",
+    "url": "http://www.ub.edu/"
+  },
+  {
+    "universidad": "Universidad de León",
+    "url": "http://www.unileon.es/"
+  },
+  {
+    "universidad": "Universidad Pontificia de Salamanca",
+    "url": "https://www.uchceu.es/"
+  },
+  {
+    "universidad": "Nebrija Universidad",
+    "url": "http://www.nebrija.com"
+  },
+  {
+    "universidad": "Universitat Ramon Llull",
+    "url": "https://www.url.edu/"
+  },
+  {
+    "universidad": "Universidad de Huelva",
+    "url": "https://fme.upc.edu/es"
+  },
+  {
+    "universidad": "Universidad de Murcia",
+    "url": "http://www.um.es/fee/"
+  },
+  {
+    "universidad": "Universidad de Granada",
+    "url": "http://fehceuta.ugr.es/"
+  },
+  {
+    "universidad": "Universitat Pompeu Fabra",
+    "url": "http://www.upf.edu/"
+  },
+  {
+    "universidad": "Universidad de Cantabria",
+    "url": "http://web.unican.es/"
+  },
+  {
+    "universidad": "CUNEF",
+    "url": "http://www.cunef.edu"
+  },
+  {
+    "universidad": "Universitat de Girona",
+    "url": "https://www.udg.edu/ca/"
+  },
+  {
+    "universidad": "Universidad de Málaga",
+    "url": "http://www.uma.es/fest/"
+  },
+  {
+    "universidad": "Universidad de Córdoba",
+    "url": "http://www.uco.es/"
+  },
+  {
+    "universidad": "Universidad de Cádiz",
+    "url": "https://www.uca.es/"
+  },
+  {
+    "universidad": "Universidad de Almería",
+    "url": "http://www.ual.es"
+  },
+  {
+    "universidad": "Universitat de les Illes Balears",
+    "url": "https://www.uib.cat/"
+  },
+  {
+    "universidad": "Universidad de Jaén",
+    "url": "http://www.ujaen.es/"
+  },
+  {
+    "universidad": "Universidad de Castilla - La Mancha",
+    "url": "http://www.uclm.es/"
+  },
+  {
+    "universidad": "Universidad de La Laguna",
+    "url": "http://www.facultades.ull.es/"
+  },
+  {
+    "universidad": "Universidad Politécnica de Madrid",
+    "url": "https://www.upm.es"
+  },
+  {
+    "universidad": "Universidad de Oviedo",
+    "url": "http://jovellanos.uniovi.es/"
+  },
+  {
+    "universidad": "Universidad de Alicante",
+    "url": "https://www.ua.es"
+  },
+  {
+    "universidad": "Universidad de Extremadura",
+    "url": "http://www.unex.es/"
+  },
+  {
+    "universidad": "Universidad de Valladolid",
+    "url": "http://uva.es"
+  },
+  {
+    "universidad": "Universitat de Lleida",
+    "url": "http://www.udl.es/"
+  },
+  {
+    "universidad": "Universitat de València",
+    "url": "http://www.uv.es/"
+  },
+  {
+    "universidad": "Universidad Camilo José Cela",
+    "url": "https://www.ucjc.edu"
+  },
+  {
+    "universidad": "Universidad Isabel I",
+    "url": "https://www.ui1.es"
+  },
+  {
+    "universidad": "Universidad Católica de Valencia San Vicente Mártir",
+    "url": "https://www.ucv.es"
+  },
+  {
+    "universidad": "Universidad Europea del Atlántico",
+    "url": "https://www.uneatlantico.es"
+  },
+  {
+    "universidad": "Universidad Internacional de La Rioja",
+    "url": "https://www.unir.net"
+  },
+  {
+    "universidad": "Universitat Internacional de Catalunya",
+    "url": "http://www.uic.es/es/"
+  },
+  {
+    "universidad": "Universidad Europea Miguel de Cervantes",
+    "url": "https://www.uemc.es"
+  },
+  {
+    "universidad": "Universidad Católica de Murcia",
+    "url": "http://www.ucam.edu"
+  },
+  {
+    "universidad": "Universidad Católica de Ávila",
+    "url": "https://www.ucavila.es"
+  },
+  {
+    "universidad": "Universitat Abat Oliba CEU",
+    "url": "https://www.uaoceu.es"
+  },
+  {
+    "universidad": "Universidad San Jorge",
+    "url": "https://www.usj.es"
+  },
+  {
+    "universidad": "Universidad Loyola",
+    "url": "http://www.uloyola.es"
+  },
+  {
+    "universidad": "Universidad CEU Cardenal Herrera",
+    "url": "https://www.uchceu.es"
+  },  
+  {
+    "universidad": "ESERP Business School",
+    "url": "https://www.igema.net/"
+  },
+  {
+    "universidad": "Universidad Miguel Hernández de Elche",
+    "url": "http://fcsjelche.umh.es"
+  },
+  {
+    "universidad": "Universidade de Vigo",
+    "url": "http://webs.uvigo.es/centros/fft/"
+  },
+  {
+    "universidad": "Universitat Rovira i Virgili",
+    "url": "http://www.urv.cat/"
+  },
+  {
+    "universidad": "Universitat Jaume I",
+    "url": "https://www.uji.es/"
+  },
+  {
+    "universidad": "Universidade de Santiago de Compostela",
+    "url": "http://www.usc.es/"
+  },
+  {
+    "universidad": "Universidad de La Rioja",
+    "url": "http://www.unirioja.es/"
+  },
+  {
+    "universidad": "Universidad de Las Palmas de Gran Canaria",
+    "url": "http://www.campusvirtual.ulpgc.es"
+  },
+  {
+    "universidad": "Universidad Nacional de Educación a Distancia",
+    "url": "https://www.uned.es/"
+  },
+  {
+    "universidad": "Universidade da Coruña",
+    "url": "https://udc.es/"
+  },
+  {
+    "universidad": "Universidad Pública de Navarra",
+    "url": "http://www.unavarra.es/"
+  },
+  {
+    "universidad": "Universidad Pablo de Olavide",
+    "url": "https://www.upo.es/"
+  },
+  {
+    "universidad": "Universidad de Zaragoza",
+    "url": "http://unizar.es/web/"
+  },
+  {
+    "universidad": "Universidad Politécnica de Cartagena",
+    "url": "http://www.upct.es/"
+  },
+  {
+    "universidad": "ESIC Business & Marketing School",
+    "url": "http://www.esic.edu"
+  },
+  {
+    "universidad": "Universitat de Vic- Universitat Central de Catalunya",
+    "url": "https://www.uvic.cat/es"
+  },
+  {
+    "universidad": "Universidad Internacional de Valencia",
+    "url": "http://www.universidadviu.es"
+  },
+  {
+    "universidad": "Universidad Fernando Pessoa Canarias",
+    "url": "http://www.ufpcanarias.es/"
+  },
+  {
+    "universidad": "Universidad Europea de Valencia",
+    "url": "http://valencia.universidadeuropea.es"
+  },
+  {
+    "universidad": "Universidad del Atlántico Medio",
+    "url": "http://www.ucavila.es"
+  },
+  {
+    "universidad": "Universidad Villanueva",
+    "url": "https://www.villanueva.edu/"
+  },
+  {
+    "universidad": "Universidad Europea de Canarias",
+    "url": "http://canarias.universidadeuropea.es"
+  },
+  {
+    "universidad": "Universidad a Distancia de Madrid",
+    "url": "http://www.udima.es/es/"
+  },
+  {
+    "universidad": "UOC (Universitat Oberta de Catalunya)",
+    "url": "https://www.uoc.edu/portal/es/index.html"
+  },
+  {
+    "universidad": "Centro Universitario de la Defensa de Madrid",
+    "url": "http://cud.uah.es/"
+  },
+  {
+    "universidad": "Centro Universitario de la Guardia Civil",
+    "url": "https://www.cugc.es"
+  },
+  {
+    "universidad": "Centro Universitario de la Defensa “Academia General Militar”",
+    "url": "http://cud.unizar.es"
+  },
+  {
+    "universidad": "Centro Universitario de la Defensa \"Escuela Naval Militar Marín\"",
+    "url": "https://cud.uvigo.es"
+  },
+  {
+    "universidad": "Centro Universitario de la Defensa \"Academia General del Aire\"",
+    "url": "https://www.cud.upct.es"
+  },
+
+
+
+
+
+
+
+
+  {
+    "universidad": "Escuela de Enfermería La Fe",
+    "url": "http://www.ee.lafe.san.gva.es/"
+  },
+  {
+    "universidad": "E.U. de Enfermería Nuestra Señora de Candelaria",
+    "url": "https://www.ull.es/la-universidad/facultades-centros-departamentos/escuela-enfermeria-candelaria/"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Vitoria-Gasteiz ",
+    "url": "https://www.osakidetza.euskadi.eus/escuela-universitaria-enfermeria-vitoria-gasteiz/"
+  },
+  {
+    "universidad": "Centro Universitario de Enfermería de Cruz Roja",
+    "url": "http://www.enfermeriadesevilla.org"
+  },
+  {
+    "universidad": "Facultad de Enfermería de Gijón",
+    "url": "http://euenfermeriagijon.es/"
+  },
+  {
+    "universidad": "E.U. de Enfermería de La Rioja",
+    "url": "https://www.unirioja.es/facultades_escuelas/enfermeria/"
+  },
+  {
+    "universidad": "E.U. de Enfermería A Coruña",
+    "url": "http://www.enfermariacoruna.es/"
+  },
+  {
+    "universidad": "Centro Universitario de Enfermería San Juan de Dios",
+    "url": "http://www.unex.es/conoce-la-uex/centros/alcazaba"
+  },
+  {
+    "universidad": "E.U. de Enfermería de la Fundación Jiménez Díaz",
+    "url": "http://www.upf.edu/facecon/"
+  },
+  {
+    "universidad": "Centro Universitario de Enfermería Virgen de la Paz",
+    "url": "http://www.cueronda.es"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Huesca",
+    "url": "https://enfermeriahuesca.unizar.es/"
+  },
+  {
+    "universidad": "E.U. de Enfermería de la Cruz Roja de Madrid",
+    "url": "https://www.cruzroja.es/principal/web/escuela-de-enfermeria"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Meixoeiro",
+    "url": "https://www.uvigo.gal/uvigo_es/centros/vigo/cidade/eu_enfermeria_meixoeiro.html"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Teruel",
+    "url": "https://teruel.unizar.es/enfermeria"
+  },
+  {
+    "universidad": "Escuela de Enfermería de Palencia \"Dr. Dacio Crespo\"",
+    "url": "https://www.diputaciondepalencia.es/sitio/eu-enfermeria"
+  },
+  {
+    "universidad": "Escuela Superior de Cinematografía y Audiovisuales de Cataluña - ESCAC",
+    "url": "https://escac.com"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Zamora",
+    "url": "http://www.escac.es"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Pontevedra",
+    "url": "http://www.bbaa.upv.es/"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Lugo",
+    "url": "http://www.usc.es/enfermeria_lugo"
+  },
+  {
+    "universidad": "Fundación Cultural Sta. Teresa - Escuela de Enfermería de Ávila",
+    "url": "https://www.fcst.es/eue-av/"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Ourense",
+    "url": "https://www.uvigo.gal/uvigo_es/centros/ourense/enfermeria.html"
+  },
+  {
+    "universidad": "E.U. de Enfermería de Cartagena",
+    "url": "https://www.um.es/web/enfermeria-ct/"
+  },
+  {
+    "universidad": "E.U. de Enfermería del Hospital de la Santa Creu i Santa Pau",
+    "url": "http://www.ub.edu/biblio"
+  },
+  {
+    "universidad": "CUE Salus Infirmorum",
+    "url": "https://salusinfirmorum.uca.es"
+  },
+  {
+    "universidad": "E.U. de Enfermería (Povisa)",
+    "url": "http://cepovisa.com/escuela-universitaria/"
+  },
+  {
+    "universidad": "Instituto Nacional de Educación Física de Cataluña - INEFC Barcelona",
+    "url": "http://inefc.gencat.cat/es/"
+  },
+  {
+    "universidad": "Campus Docent Sant Joan de Déu",
+    "url": "https://www.santjoandedeu.edu.es/es"
+  },
+  {
+    "universidad": "Escuela Superior de Relaciones Públicas (Centro Adscrito a la UB)",
+    "url": "http://www.esrp.net"
+  },
+  {
+    "universidad": "Bau - Centro Universitario de Diseño de Barcelona",
+    "url": "http://www.euitt.upm.es/"
+  },
+  {
+    "universidad": "Escuela Superior de Enfermería del Mar",
+    "url": "http://www.esimar.edu.es/es/"
+  },
+  {
+    "universidad": "Instituto Nacional de Educación Física de Catalunya - INEFC Lleida",
+    "url": "http://inefc.gencat.cat/es/inefc_lleida/"
+  },
+  {
+    "universidad": "Escola Universitària ERAM",
+    "url": "http://www.eram.cat"
+  },
+  {
+    "universidad": "Instituto de Seguridad Pública de Cataluña - ISPC",
+    "url": "http://ispc.gencat.cat/ca/inici"
+  },
+  {
+    "universidad": "EDEM",
+    "url": "http://www.edem.es"
+  },
+  {
+    "universidad": "Escuela Superior de Comercio Internacional (ESCI)",
+    "url": "https://www.esci.upf.edu/es/"
+  },
+  {
+    "universidad": "Facultad Padre Ossó",
+    "url": "http://facultadpadreosso.es/"
+  },
+  {
+    "universidad": "E.U. de la Salud y el Deporte (UdG)",
+    "url": "https://www.fundacioudg.org/es/servicios/l/5413-euses--escuela-universitaria-de-la-salud-y-el-deporte.html"
+  },
+  {
+    "universidad": "E.U. de Trabajo Social",
+    "url": "http://www.euts.es"
+  },
+  {
+    "universidad": "E.U. de Relaciones Laborales de Burgos",
+    "url": "https://www.ubu.es/escuela-universitaria-de-relaciones-laborales/escuela-universitaria-de-relaciones-laborales"
+  },
+  {
+    "universidad": "Centro Universitario Adscrito de Trabajo Social",
+    "url": "http://www.trabajosocialalmeria.es"
+  },
+  {
+    "universidad": "Escuela Superior de Comercio y Distribución (ESCODI)",
+    "url": "https://escodi.com/es/"
+  },
+  {
+    "universidad": "E.U. de Turismo de Ibiza",
+    "url": "http://www.escuelaturismo.org/"
+  },
+  {
+    "universidad": "E.U. de Relaciones Laborales de Zamora",
+    "url": "https://relacioneslaboraleszamora.usal.es/"
+  },
+  {
+    "universidad": "E.U. de Relaciones Laborales de Elda",
+    "url": "https://web.ua.es/es/eurle/"
+  },
+  {
+    "universidad": "E.U. de Turismo de Lanzarote",
+    "url": "http://www.eutl.es"
+  },
+  {
+    "universidad": "E.U. de Relaciones Laborales de Lugo",
+    "url": "https://pruebalaborales.jimdo.com/"
+  },
+  {
+    "universidad": "E.U. de Hotelería y Turismo Sant Pol de Mar",
+    "url": "https://www.santpol.edu.es/"
+  },
+  {
+    "universidad": "EUIT - Escola Universitaria d'Infermeria i Teràpia Ocupacional de Terrassa",
+    "url": "http://www.euit.fdsll.cat"
+  },
+  {
+    "universidad": "Centro de la Imagen y la Tecnología Multimedia (CITM)",
+    "url": "https://www.citm.upc.edu/esp/"
+  },
+  {
+    "universidad": "EINA, Centro Universitario de Diseño y Arte de Barcelona (UAB)",
+    "url": "https://www.eina.cat/es/eina"
+  },
+  {
+    "universidad": "E.U. Cámara de Comercio de Bilbao",
+    "url": "https://www.camarabilbaoubs.com/cubs/portal.portal.action"
+  },
+  {
+    "universidad": "Centro Universitario de Magisterio ESCUNI",
+    "url": "https://www.escuni.es/"
+  },
+  {
+    "universidad": "E.U. de Turismo de Tenerife",
+    "url": "http://eutur.es/"
+  },
+  {
+    "universidad": "Escuela de Turismo Universitaria de Zaragoza",
+    "url": "http://www.etuz.es"
+  },
+  {
+    "universidad": "Escuela de Nuevas Tecnologías Interactivas - ENTI",
+    "url": "https://enti.cat/es/"
+  },
+  {
+    "universidad": "CES Don Bosco",
+    "url": "https://cesdonbosco.com/"
+  },
+  {
+    "universidad": "Centro de Magisterio María Inmaculada",
+    "url": "http://www.eummia.es"
+  },
+  {
+    "universidad": "Escuela Universitaria de Magisterio CEU Vigo",
+    "url": "http://www.escuelamagisterioceuvigo.es"
+  },
+  {
+    "universidad": "Centro de Magisterio Virgen de Europa",
+    "url": "https://www.magisteriolalinea.com/"
+  },
+  {
+    "universidad": "E.U. de Turismo de Murcia",
+    "url": "http://www.eutm.es"
+  },
+  {
+    "universidad": "CES Cardenal Spínola CEU",
+    "url": "http://www.ceuandalucia.es"
+  },
+  {
+    "universidad": "E.U. de Turismo Euroaula",
+    "url": "https://www.euroaula.com/"
+  },
+  {
+    "universidad": "Escuela Universitaria de Ingeniería Dual del IMH",
+    "url": "https://www.imh.eus/es/ingenieria-dual"
+  },
+  {
+    "universidad": "Centro de Magisterio Sagrado Corazón",
+    "url": "http://www.magisteriosc.es"
+  },
+  {
+    "universidad": "Escuela Universitaria Mediterrani",
+    "url": "http://www.mediterrani.com"
+  },
+  {
+    "universidad": "Instituto de Estudios Bursátiles (IEB)",
+    "url": "http://www.ieb.es"
+  },
+  {
+    "universidad": "The Ostelea School of Tourism & Hospitality",
+    "url": "https://www.ostelea.com/"
+  },
+  {
+    "universidad": "Escuela Universitaria de Osuna",
+    "url": "http://www.euosuna.org/"
+  },
+  {
+    "universidad": "E.U. de la Salud y el Deporte (URV)",
+    "url": "http://www.urv.cat/ca/societat-empresa/campus-extens/amposta/"
+  },
+  {
+    "universidad": "ISDE Law Business School",
+    "url": "https://isde.es/"
+  },
+  {
+    "universidad": "Centro de Magisterio La Inmaculada",
+    "url": "http://www.cmli.es/"
+  },
+  {
+    "universidad": "Adema - Escuela Universitaria de Odontología",
+    "url": "http://www.ademaescuelauniversitaria.com/"
+  },
+  {
+    "universidad": "E.U. Salesiana de Sarrià",
+    "url": "https://www.euss.cat/es"
+  },
+  {
+    "universidad": "EAE Business School",
+    "url": "https://www.eae.es"
+  },
+  {
+    "universidad": "Centro de Enseñanza Superior Cardenal Cisneros",
+    "url": "https://www.universidadcisneros.es/"
+  },
+  {
+    "universidad": "Centro Español de Nuevas Profesiones (CENP)",
+    "url": "https://www.tecnocampus.cat/es/escuela-universitaria-mataro"
+  },
+  {
+    "universidad": "Centro Universitario Santa Ana",
+    "url": "http://magisterio.safa.edu/"
+  },
+  {
+    "universidad": "Centro Universitario San Isidoro",
+    "url": "https://es.eserp.com/grados/grados-barcelona/"
+  },
+  {
+    "universidad": "Centro Universitario EUSA",
+    "url": "http://www.centrosanisidoro.es/"
+  },
+  {
+    "universidad": "Centro Superior de Diseño de Moda de Madrid",
+    "url": "http://www.eusa.es"
+  },
+  {
+    "universidad": "Florida Universitària",
+    "url": "http://www.csdmm.upm.es/"
+  },
+  {
+    "universidad": "Escuelas Universitarias Gimbernat y Tomás Cerdá",
+    "url": "http://www.floridauniversitaria.es"
+  },
+  {
+    "universidad": "Escuela Universitaria de Artes y Espectáculos TAI",
+    "url": "https://www.eug.es/campus/campus-universitario-de-sant-cugat/"
+  },
+  {
+    "universidad": "Escuela Universitaria de Turismo Felipe Moreno",
+    "url": "https://taiarts.com/"
+  },
+  {
+    "universidad": "Escuela de Aeronáutica ADVENTIA",
+    "url": "http://etb-baleares.es"
+  },
+  {
+    "universidad": "CETT - Campus de Turismo, Hotelería y Gastronomía",
+    "url": "http://adventia.org/language/es/"
+  },
+  {
+    "universidad": "IGEMA - Centro de Estudios Universitarios",
+    "url": "http://www.cett.es"
+  },
+  {
+    "universidad": "Escuela Universitaria de Hostelería de las Illes Balears (EUHIB)",
+    "url": "https://www.uib.es/es/lauib/estructura/facultats-i-escoles/ehot/"
+  },
+  {
+    "universidad": "Euncet Business School",
+    "url": "http://cesuga.com/"
+  },
+  {
+    "universidad": "Aviation Group",
+    "url": null
+  },
+  {
+    "universidad": "TecnoCampus",
+    "url": "http://www.esic.edu"
+  },
+  {
+    "universidad": "E.U. Politécnica La Almunia",
+    "url": "https://www.cardenalcisneros.es/"
+  },
+  {
+    "universidad": "UNIBA - Centro Universitario Internacional de Barcelona",
+    "url": "http://www.esic.edu/valencia/"
+  },
+  {
+    "universidad": "Instituto Mediterráneo de Estudios de Protocolo (IMEP)",
+    "url": "https://www.cesag.org/"
+  },
+  {
+    "universidad": "Escuela de Prevención y Seguridad Integral",
+    "url": "https://www.cardenalcisneros.es/"
+  },
+  {
+    "universidad": "INISEG - Instituto Internacional de Estudios en Seguridad Global",
+    "url": "http://www.lasallecentrouniversitario.es"
+  },
+  {
+    "universidad": "Centro Universitario Sagrada Familia",
+    "url": "http://www.esic.edu/barcelona/"
+  },
+  {
+    "universidad": "Centro Universitario Cardenal Cisneros",
+    "url": "https://www.uab.cat/web/escuela-de-prevencion-y-seguridad-integral-epsi-1345725657402.html"
+  },
+  {
+    "universidad": "INEA - Escuela Universitaria de Ingeniería Agrícola",
+    "url": "http://magisterio.safa.edu/"
+  },
+  {
+    "universidad": "E.U. de Turismo y Dirección Hotelera",
+    "url": "http://www.esic.edu/barcelona/"
+  },
+  {
+    "universidad": "Facultad de Turismo de Oviedo",
+    "url": "https://www.frayluis.com"
+  },
+  {
+    "universidad": "Centro de Estudios Superiores Universitarios de Galicia (CESUGA)",
+    "url": "http://www.facultadturismo.com"
+  },
+  {
+    "universidad": "ESNE - Escuela Universitaria de Diseño, Innovación y Tecnología",
+    "url": "http://cesuga.com/"
+  },
+  {
+    "universidad": "U-tad, Centro Universitario de Tecnología y Arte Digital",
+    "url": "http://www.esic.edu/valencia/"
+  },
+  {
+    "universidad": "IESIDE - Instituto de Educación Superior Intercontinental de la Empresa",
+    "url": "http://www.u-tad.com"
+  },
+  {
+    "universidad": "Gasma - Gastronomy & Culinary Management Campus",
+    "url": "https://www.frayluis.com"
+  },
+  {
+    "universidad": "ISEN Centro Universitario",
+    "url": "https://www.isen.es/"
+  },
+  {
+    "universidad": "Centro de Enseñanza Superior Alberta Giménez",
+    "url": "https://www.cesag.org/"
+  },
+  {
+    "universidad": "E.U. de Magisterio Fray Luis de León",
+    "url": "https://www.frayluis.com"
+  },
+  {
+    "universidad": "Escuela Universitaria Begoñako Andra Mari",
+    "url": "http://www.bam.edu.es"
+  },
+  {
+    "universidad": "Centro Universitario Internacional de Madrid (CUNIMAD)",
+    "url": "https://www.cesine.com/"
+  },
+  {
+    "universidad": "La Salle Centro Universitario",
+    "url": "http://www.esic.edu"
+  },
+  {
+    "universidad": "Escuela Superior de Diseño ESDi",
+    "url": "http://www.esic.edu/zaragoza/"
+  },
+  {
+    "universidad": "Centro Universitario de Ciencias de la Salud San Rafael-Nebrija",
+    "url": "http://www.esic.edu"
+  },
+  {
+    "universidad": "CESINE - Centro Universitario",
+    "url": "http://www.esic.edu/barcelona/"
+  },
+  {
+    "universidad": "Escuela Universitaria de Fisioterapia de La ONCE",
+    "url": "http://www.esic.edu"
+  },
+  {
+    "universidad": "CEDEU - Centro de Estudios Universitarios",
+    "url": "https://euf.once.es/es/"
+  },
+  {
+    "universidad": "Escuela de Negocios y Dirección",
+    "url": "https://www.cedeu.es/"
+  }
+]

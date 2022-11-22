@@ -1,0 +1,67 @@
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      Asignaturas
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/cuenta">
+        <ion-icon name="person-circle-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios" class="back">
+  <ion-header collapse="condense" class="ion-no-border">
+    <ion-toolbar>
+      <ion-title size="large">Asignaturas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card button="true" class="carta">
+    <ion-item  lines="none">
+      <ion-label>Curso</ion-label>
+      <ion-select interface="popover" value={{cursoActual}} #C (ionChange)="onChange(C.value)">
+        <ion-select-option *ngFor="let d of cursos" value={{d.name}}>{{d.name}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-card>
+  <ion-card button="true" class="carta">
+    <ion-item *ngIf="cursoActual!=null" lines="none">
+      <ion-label>Etapa</ion-label>
+      <ion-select interface="popover" value={{etapaActual}} #E (ionChange)="onChangeE(E.value)">
+        <ion-select-option *ngFor="let c of curso.etapas" value={{c.name}}>{{c.name}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-card>
+
+  <ion-grid *ngIf="data.length!=0; else elseBlock">
+    <ion-row>
+      <ion-col *ngFor="let a of data">
+
+        <ion-card button="true" [routerLink]="[a.id]" mode="ios">
+          <img class="icon" src="{{a.image}}" *ngIf="a.image!=''"/>
+          <ion-card-header>
+            <ion-card-subtitle>{{a.curso}}</ion-card-subtitle>
+            <ion-card-title>{{a.name}}</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ng-template #elseBlock><img class="add" src="./assets/add.png"></ng-template>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="top">
+      <ion-fab-button routerLink="add-asig" edge="true"><ion-icon name="library"></ion-icon></ion-fab-button>
+      <ion-label class="labelFab">Materia</ion-label>
+      <ion-fab-button routerLink="add-curso"><ion-icon name="medkit"></ion-icon></ion-fab-button>
+      <ion-label class="labelFab">Curso</ion-label>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>

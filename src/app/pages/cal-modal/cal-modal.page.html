@@ -1,0 +1,73 @@
+<ion-toolbar color="primary">
+  <ion-buttons slot="start">
+    <ion-button (click)="close()">
+      <ion-icon name="close" slot="icon-only"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>Nuevo Evento</ion-title>
+  <ion-buttons slot="end">
+    <ion-button [disabled]="formulario.invalid" (click)="save()">
+      <ion-icon name="checkmark" slot="icon-only"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+ 
+<ion-content>
+  <form #formulario="ngForm" (submit)="save()" [formGroup]="event">
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Title</ion-label>
+        <ion-input tpye="text" class="form-control" formControlName="title" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Description</ion-label>
+        <ion-input tpye="text" class="form-control" formControlName="desc"></ion-input>
+      </ion-item>
+      <ion-list-header>Fecha</ion-list-header>
+
+      <ion-item>
+        <ion-label>Todo el día?</ion-label>
+        <ion-checkbox class="form-control" formControlName="allDay"></ion-checkbox>
+      </ion-item>
+      <div *ngIf="!event.value.allDay">
+        <ion-item>
+          <ion-label>Start</ion-label>
+          <ion-datetime displayFormat="DD/MM/YYYY HH:mm" pickerFormat="MMM D:HH:mm" 
+          type="text" class="form-control" formControlName="startTime" [min]="minDate" required></ion-datetime>
+        </ion-item>
+        <ion-item>
+          <ion-label>End</ion-label>
+          <ion-datetime displayFormat="DD/MM/YYYY HH:mm" pickerFormat="MMM D:HH:mm" 
+          type="text" class="form-control" formControlName="endTime" [min]="minDate"></ion-datetime>
+        </ion-item>
+      </div>
+      <div *ngIf="event.value.allDay">
+        <ion-item>
+          <ion-label>Día</ion-label>
+          <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD MMM YYYY" 
+          type="text" class="form-control" formControlName="startTime" required></ion-datetime>
+        </ion-item>
+      </div>
+
+      <ion-list-header>Asignatura (opcional)</ion-list-header>
+      <ion-item>
+        <ion-label position="floating">Curso</ion-label>
+        <ion-select interface="popover" class="form-control" formControlName="curso" #C (ionChange)="onChange(C.value)">
+          <ion-select-option *ngFor="let d of data" value={{d.name}}>{{d.name}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="curso!=null">
+        <ion-label position="floating">Etapa</ion-label>
+        <ion-select interface="popover" class="form-control" formControlName="etapa" #E (ionChange)="onChangeE(E.value)">
+          <ion-select-option *ngFor="let c of curso.etapas" value={{c.name}}>{{c.name}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="etapa!=null">
+        <ion-label position="floating">Asignatura</ion-label>
+        <ion-select interface="popover" class="form-control" formControlName="id">
+          <ion-select-option *ngFor="let c of etapa.asignaturas" value="{{c.id}}">{{c.name}}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

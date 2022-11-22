@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Buscar Foto</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar animated (ionChange)="buscar($event)" autocomplete="on"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="grid-gallery">
+    <div *ngFor="let d of data | filtro:textoBuscar">
+      <a class="grid-gallery__item">
+        <img class="icon" src="{{d.url}}" (click)="select(d.url)" class="grid-gallery__image"/>
+      </a>
+    </div>
+  </div>
+</ion-content>

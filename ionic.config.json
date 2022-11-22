@@ -1,0 +1,8 @@
+{
+  "name": "MyGrades",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

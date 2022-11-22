@@ -1,0 +1,131 @@
+<ion-header [translucent]="true" mode="ios">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    
+    <ion-title>
+      {{asignatura.name}}
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="delete()">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" *ngIf="asignatura!=undefined" mode="ios">
+  <img class="icon" src="{{asignatura.image}}"/>
+  <ion-list>
+    <ion-list-header>{{asignatura.curso}}</ion-list-header>
+    <ion-item>
+      <ion-label>
+        {{asignatura.creditos}} cts
+      </ion-label>
+    </ion-item>
+
+    <ion-list-header>Nota</ion-list-header>
+    <div *ngIf="notaCompleta; else notaMedia">
+    <div *ngIf="notaIncompleta; else sinNotas">
+
+    <ion-slides [options]="sliderConfig">
+      <ion-slide>
+        <ion-card button="true">
+          <ion-card-header>
+            <ion-card-title>
+              {{getNotaMinima()}}
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Minima
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card button="true">
+          <ion-card-header>
+            <ion-card-title>
+              {{getNotaProvisional()}}
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Provisional
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card button="true">
+          <ion-card-header>
+            <ion-card-title>
+              {{getNotaMaxima()}}
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Máxima
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+    </div>
+    </div>
+
+    <ng-template #notaMedia>
+      <ion-slides [options]="sliderConfig">
+        <ion-slide>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-card-title>
+                {{getNotaProvisional()}}
+              </ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              Nota Media
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ng-template>
+
+    <ng-template #sinNotas>
+      <ion-slides>
+        <ion-slide>
+          <ion-card button="false">
+            <ion-card-content>
+              Completa ponderaciones para ver tu media
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ng-template>
+
+    <ion-list-header>Ponderaciones</ion-list-header>
+    <ion-item *ngFor="let p of asignatura.ponderaciones" (click)="abrirModal(p)" detail="true">
+      <ion-label>
+        {{p.name}}  {{p.peso}}%
+      </ion-label>
+      <ion-note slot="end">{{p.nota}}</ion-note>
+    </ion-item>
+
+    <ion-list-header>Eventos Próximos</ion-list-header>
+    <ion-item *ngFor="let e of eventos">
+      <ion-label>
+        {{e.title}}
+      </ion-label>
+      <ion-note *ngIf="checkDate(e)==false" slot="end">
+        {{e.startTime.toDate().getUTCDate()}}/{{e.startTime.toDate().getUTCMonth()}}/{{e.startTime.toDate().getUTCFullYear()}}
+      </ion-note>
+      <ion-note *ngIf="checkDate(e)" slot="end">
+        {{e.startTime.getUTCDate()}}/{{e.startTime.getUTCMonth()}}/{{e.startTime.getUTCFullYear()}}
+      </ion-note>
+    </ion-item>
+    <ion-item *ngIf="eventos.length==0">
+      <ion-label>
+        Ningún evento
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

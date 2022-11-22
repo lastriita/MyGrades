@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Universidad Pontificia Comillas",
+    "img": "./assets/universidades/Comillas-universidad-pontificia.jpg",
+    "url": "https://www.comillas.edu/es/"
+  },
+  {
+    "name": "Universidad Complutense de Madrid",
+    "img": "./assets/complutense-madrid.png",
+    "url": "https://www.ucm.es"
+  },
+  {
+    "name": "Universidad Carlos III de Madrid",
+    "img": "./assets/universidades/UNIVERSIDAD-CARLOS-III-1.jpg",
+    "url": "http://www.uc3m.es"
+  },
+  {
+    "name": "Universitat Politècnica de València",
+    "img": "https://www.elperiodic.com/archivos/imagenes/noticias/2020/05/11/8e6838ce-9fc7-4eeb-8ce0-83a6a70ead01.jpg",
+    "url": "http://www.upv.es/"
+  },
+  {
+    "name": "Universidad de Salamanca",
+    "img": "https://www.ecestaticos.com/image/clipping/8bc192d91de701946d082bc106e58de1/los-800-jovenes-anos-de-la-inmortal-universidad-de-salamanca.jpg",
+    "url": "http://www.usal.es/"
+  },
+  {
+    "name": "Universidad Autónoma de Madrid",
+    "img": "https://lh3.googleusercontent.com/proxy/lbBzoOZwVwUMOvWXK0-vRBCVBeSbvzAx_UVLgOl0NhjqCjIDt-M7kUrcVqmR5aUVBe0vrRMJZzwq4FoStBgfsUQmzfYCBd8-znpJjlC9k0pF-xZWbBMilM2pTCEM5pg",
+    "url": "http://www.uam.es/"
+  },
+  {
+    "name": "Universitat Autònoma de Barcelona",
+    "img": "https://img2.rtve.es/a/4837700?w=1600&preview=1542107470297.jpg",
+    "url": "http://www.uab.es/lletres"
+  },
+  {
+    "name": "Universidad de Burgos",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Universidad_de_burgos_-_Entrance_of_the_school_of_law.jpg",
+    "url": "http://www.ubu.es"
+  },
+  {
+    "name": "Universidad del País Vasco",
+    "img": "https://static.elcorreo.com/www/multimedia/202012/17/media/cortadas/nueva-ope-upv-ehu-plazas-profesores-kAtD-RB1Xv6fNI8k3r5cnGngJEYN-1248x770@El%20Correo-ElCorreo.jpg",
+    "url": "https://https://www.ehu.eus/es/home/"
+  },
+  {
+    "name": "Universidad Francisco de Vitoria",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Panoramica_oficial_UFV.jpg",
+    "url": "https://www.ufv.es"
+  },
+  {
+    "name": "Universidad de Deusto",
+    "img": "https://lh3.googleusercontent.com/proxy/x8iRgUl425uMpkwQSz0QYk9hFVychXAY9e2oM9cRi4X0zAO8IdUcaug8mY3KgTgh_6X_QeN-FdnTWWAVbzMV5mQWUsvsFj641xhv8JJMAqXZfN2HwakTnhTs2xaXOEgNUXdnVI2njuCE0_3fQ0EqkesODA",
+    "url": "http://www.deusto.es/"
+  },
+  {
+    "name": "Universitat Politècnica de Catalunya",
+    "img": "https://www.cajamardatalab.com/datathon-cajamar-universityhack-2017/centros/upc/3.jpg",
+    "url": "https://upc.edu/es"
+  },
+  {
+    "name": "Universidad Alfonso X el Sabio",
+    "img": "https://www.ecestaticos.com/image/clipping/678f86b679bb5a7959b50f16770a6375/la-uax-sella-una-alianza-con-edex-y-abre-16-delegaciones-en-toda-iberoamerica.jpg",
+    "url": "http://www.uax.com"
+  },
+  {
+    "name": "Universidad Europea de Madrid",
+    "img": "https://storage.googleapis.com/ue-webcorp-pro-as/resources/media/images/CAMPUS_VILLAVICIOSA1056x600px.original.jpg",
+    "url": "https://madrid.universidadeuropea.es/"
+  },
+  {
+    "name": "Universidad CEU San Pablo",
+    "img": "https://www.creara.es/wp-content/uploads/2018/07/gestion-energetica-caso1.jpg",
+    "url": "http://www.ceu.es/"
+  },
+  {
+    "name": "Mondragon Unibertsitatea",
+    "img": "https://www.gipuzkoagaur.com/wp-content/uploads/2019/01/universidad-mondragon.jpg",
+    "url": "https://www.mondragon.edu/es/"
+  },
+  {
+    "name": "Universidad de Navarra",
+    "img": "https://www.unav.edu/documents/11306/0/Visita-el-campus-de-la-Universidad-de-Navarra.jpg/",
+    "url": "https://unav.edu/"
+  },
+  {
+    "name": "IE University",
+    "img": "https://static-frm.ie.edu/university/wp-content/uploads/sites/6/2016/11/IE-University-Campus-in-Madrid-1744x1159.jpg",
+    "url": "http://www.ie.edu/universidad"
+  },
+  {
+    "name": "Universidad Rey Juan Carlos",
+    "img": "https://como-contactar.com/wp-content/uploads/2018/07/Universidad-Rey-Juan-Carlos.jpg",
+    "url": "http://www.urjc.es/"
+  },
+  {
+    "name": "Universidad de Alcalá",
+    "img": "https://escuelapolitecnica.uah.es/imgs/galeria/3.jpg",
+    "url": "http://uah.es/"
+  },
+  {
+    "name": "Universidad de Sevilla",
+    "img": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2019/11/06/15730645214825.jpg",
+    "url": "http://fct.us.es/"
+  },
+  {
+    "name": "Universitat de Barcelona",
+    "img": "https://bkc.ub.upc.edu/ca/unnamed.jpg/@@images/2d0f40d7-fc33-4897-be46-eae22b13198b.jpeg",
+    "url": "http://www.ub.edu/"
+  },
+  {
+    "name": "Universidad de León",
+    "img": "https://static1.elnortedecastilla.es/www/multimedia/201806/08/media/cortadas/CampusULE-U30120558156aQF-U502161786367GFF-624x385@El%20Norte-ElNorte.jpg",
+    "url": "http://www.unileon.es/"
+  },
+  {
+    "name": "Universidad Pontificia de Salamanca",
+    "img": "https://www.za49.es/images/showid2/3684693?w=1200&zc=4",
+    "url": "https://www.uchceu.es/"
+  },
+  {
+    "name": "Nebrija Universidad",
+    "img": "https://www.nebrija.com/images/campus/madrid-princesa.jpg",
+    "url": "http://www.nebrija.com"
+  },
+  {
+    "name": "Universitat Ramon Llull",
+    "img": "https://www.shbarcelona.es/blog/es/wp-content/uploads/2017/05/universitat-ramon-llull.jpg",
+    "url": "https://www.url.edu/"
+  },
+  {
+    "name": "Universidad de Huelva",
+    "img": "https://www.etitulo.com/wp-content/uploads/2017/09/Huelva.jpg",
+    "url": "https://fme.upc.edu/es"
+  },
+  {
+    "name": "Universidad de Murcia",
+    "img": "https://imgs-akamai.mnstatic.com/0c/e0/0ce0dbc407e869d34c3f71495958b68f.jpg",
+    "url": "http://www.um.es/fee/"
+  },
+  {
+    "name": "Universidad de Granada",
+    "img": "https://www.ugr.es/sites/default/files/inline-images/facultaddeodontologia.jpg",
+    "url": "http://fehceuta.ugr.es/"
+  },
+  {
+    "name": "Universitat Pompeu Fabra",
+    "img": "https://static3.abc.es/media/espana/2017/08/15/CAMPUS-k7ZE--620x349@abc.jpg",
+    "url": "http://www.upf.edu/"
+  },
+  {
+    "name": "Universidad de Cantabria",
+    "img": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/2015/02/Campus-de-la-UNICAN.jpg",
+    "url": "http://web.unican.es/"
+  },
+  {
+    "name": "CUNEF",
+    "img": null,
+    "url": "http://www.cunef.edu"
+  },
+  {
+    "name": "Universitat de Girona",
+    "img": null,
+    "url": "https://www.udg.edu/ca/"
+  },
+  {
+    "name": "Universidad de Málaga",
+    "img": null,
+    "url": "http://www.uma.es/fest/"
+  },
+  {
+    "name": "Universidad de Córdoba",
+    "img": null,
+    "url": "http://www.uco.es/"
+  },
+  {
+    "name": "Universidad de Cádiz",
+    "img": null,
+    "url": "https://www.uca.es/"
+  },
+  {
+    "name": "Universidad de Almería",
+    "img": null,
+    "url": "http://www.ual.es"
+  },
+  {
+    "name": "Universitat de les Illes Balears",
+    "img": null,
+    "url": "https://www.uib.cat/"
+  },
+  {
+    "name": "Universidad de Jaén",
+    "img": null,
+    "url": "http://www.ujaen.es/"
+  },
+  {
+    "name": "Universidad de Castilla - La Mancha",
+    "img": null,
+    "url": "http://www.uclm.es/"
+  },
+  {
+    "name": "Universidad de La Laguna",
+    "img": null,
+    "url": "http://www.facultades.ull.es/"
+  },
+  {
+    "name": "Universidad Politécnica de Madrid",
+    "img": null,
+    "url": "https://www.upm.es"
+  },
+  {
+    "name": "Universidad de Oviedo",
+    "img": null,
+    "url": "http://jovellanos.uniovi.es/"
+  },
+  {
+    "name": "Universidad de Alicante",
+    "img": null,
+    "url": "https://www.ua.es"
+  },
+  {
+    "name": "Universidad de Extremadura",
+    "img": null,
+    "url": "http://www.unex.es/"
+  },
+  {
+    "name": "Universidad de Valladolid",
+    "img": null,
+    "url": "http://uva.es"
+  },
+  {
+    "name": "Universitat de Lleida",
+    "img": null,
+    "url": "http://www.udl.es/"
+  },
+  {
+    "name": "Universitat de València",
+    "img": null,
+    "url": "http://www.uv.es/"
+  },
+  {
+    "name": "Universidad Camilo José Cela",
+    "img": null,
+    "url": "https://www.ucjc.edu"
+  },
+  {
+    "name": "Universidad Isabel I",
+    "img": null,
+    "url": "https://www.ui1.es"
+  },
+  {
+    "name": "Universidad Católica de Valencia San Vicente Mártir",
+    "img": null,
+    "url": "https://www.ucv.es"
+  },
+  {
+    "name": "Universidad Europea del Atlántico",
+    "img": null,
+    "url": "https://www.uneatlantico.es"
+  },
+  {
+    "name": "Universidad Internacional de La Rioja",
+    "img": null,
+    "url": "https://www.unir.net"
+  },
+  {
+    "name": "Universitat Internacional de Catalunya",
+    "img": null,
+    "url": "http://www.uic.es/es/"
+  },
+  {
+    "name": "Universidad Europea Miguel de Cervantes",
+    "img": null,
+    "url": "https://www.uemc.es"
+  },
+  {
+    "name": "Universidad Católica de Murcia",
+    "img": "https://murciadiario.com/upload/img/periodico/img_13912.jpg",
+    "url": "http://www.ucam.edu"
+  },
+  {
+    "name": "Universidad Católica de Ávila",
+    "img": null,
+    "url": "https://www.ucavila.es"
+  },
+  {
+    "name": "Universitat Abat Oliba CEU",
+    "img": null,
+    "url": "https://www.uaoceu.es"
+  },
+  {
+    "name": "Universidad San Jorge",
+    "img": null,
+    "url": "https://www.usj.es"
+  },
+  {
+    "name": "Universidad Loyola",
+    "img": null,
+    "url": "http://www.uloyola.es"
+  },
+  {
+    "name": "Universidad CEU Cardenal Herrera",
+    "img": null,
+    "url": "https://www.uchceu.es"
+  },
+  {
+    "name": "ESERP Business School",
+    "img": null,
+    "url": "https://www.igema.net/"
+  },
+  {
+    "name": "Universidad Miguel Hernández de Elche",
+    "img": null,
+    "url": "http://fcsjelche.umh.es"
+  },
+  {
+    "name": "Universidade de Vigo",
+    "img": null,
+    "url": "http://webs.uvigo.es/centros/fft/"
+  },
+  {
+    "name": "Universitat Rovira i Virgili",
+    "img": null,
+    "url": "http://www.urv.cat/"
+  },
+  {
+    "name": "Universitat Jaume I",
+    "img": null,
+    "url": "https://www.uji.es/"
+  },
+  {
+    "name": "Universidade de Santiago de Compostela",
+    "img": null,
+    "url": "http://www.usc.es/"
+  },
+  {
+    "name": "Universidad de La Rioja",
+    "img": null,
+    "url": "http://www.unirioja.es/"
+  },
+  {
+    "name": "Universidad de Las Palmas de Gran Canaria",
+    "img": null,
+    "url": "http://www.campusvirtual.ulpgc.es"
+  },
+  {
+    "name": "Universidad Nacional de Educación a Distancia",
+    "img": null,
+    "url": "https://www.uned.es/"
+  },
+  {
+    "name": "Universidade da Coruña",
+    "img": null,
+    "url": "https://udc.es/"
+  },
+  {
+    "name": "Universidad Pública de Navarra",
+    "img": null,
+    "url": "http://www.unavarra.es/"
+  },
+  {
+    "name": "Universidad Pablo de Olavide",
+    "img": null,
+    "url": "https://www.upo.es/"
+  },
+  {
+    "name": "Universidad de Zaragoza",
+    "img": null,
+    "url": "http://unizar.es/web/"
+  },
+  {
+    "name": "Universidad Politécnica de Cartagena",
+    "img": null,
+    "url": "http://www.upct.es/"
+  },
+  {
+    "name": "ESIC Business & Marketing School",
+    "img": null,
+    "url": "http://www.esic.edu"
+  },
+  {
+    "name": "Universitat de Vic- Universitat Central de Catalunya",
+    "img": null,
+    "url": "https://www.uvic.cat/es"
+  },
+  {
+    "name": "Universidad Internacional de Valencia",
+    "img": null,
+    "url": "http://www.universidadviu.es"
+  },
+  {
+    "name": "Universidad Fernando Pessoa Canarias",
+    "img": null,
+    "url": "http://www.ufpcanarias.es/"
+  },
+  {
+    "name": "Universidad Europea de Valencia",
+    "img": null,
+    "url": "http://valencia.universidadeuropea.es"
+  },
+  {
+    "name": "Universidad del Atlántico Medio",
+    "img": null,
+    "url": "http://www.ucavila.es"
+  },
+  {
+    "name": "Universidad Villanueva",
+    "img": null,
+    "url": "https://www.villanueva.edu/"
+  },
+  {
+    "name": "Universidad Europea de Canarias",
+    "img": null,
+    "url": "http://canarias.universidadeuropea.es"
+  },
+  {
+    "name": "Universidad a Distancia de Madrid",
+    "img": null,
+    "url": "http://www.udima.es/es/"
+  },
+  {
+    "name": "UOC (Universitat Oberta de Catalunya)",
+    "img": null,
+    "url": "https://www.uoc.edu/portal/es/index.html"
+  },
+  {
+    "name": "Centro Universitario de la Defensa de Madrid",
+    "img": null,
+    "url": "http://cud.uah.es/"
+  },
+  {
+    "name": "Centro Universitario de la Guardia Civil",
+    "img": null,
+    "url": "https://www.cugc.es"
+  },
+  {
+    "name": "Centro Universitario de la Defensa “Academia General Militar”",
+    "img": null,
+    "url": "http://cud.unizar.es"
+  },
+  {
+    "name": "Centro Universitario de la Defensa \"Escuela Naval Militar Marín\"",
+    "img": null,
+    "url": "https://cud.uvigo.es"
+  },
+  {
+    "name": "Centro Universitario de la Defensa \"Academia General del Aire\"",
+    "img": null,
+    "url": "https://www.cud.upct.es"
+  }
+]

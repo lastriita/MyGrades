@@ -1,0 +1,36 @@
+<ion-header [translucent]="true" mode="ios">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Cuenta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+  <img class="icon" src="./assets/profile.jpg" alt="">
+  <ion-item *ngIf="data!=undefined">
+    <ion-avatar slot="start">
+      <img src="./assets/avatar.png">
+    </ion-avatar>
+    <ion-label>{{data.name}}</ion-label>
+  </ion-item>
+  <ion-item tappable button (click)="logout()">
+    <ion-label>Editar Cuenta</ion-label>
+    <ion-icon slot="start" name="create-outline" color="primary"></ion-icon>
+  </ion-item>
+  <ion-item tappable button (click)="logout()">
+    <ion-label>Reestablecer contraseña</ion-label>
+    <ion-icon slot="start" name="key-outline" color="warning"></ion-icon>
+  </ion-item>
+  <ion-item tappable button (click)="logout()">
+    <ion-label>Cerrar sesión</ion-label>
+    <ion-icon slot="start" name="log-out-outline" color="danger"></ion-icon>
+  </ion-item>
+  <ion-item tappable button (click)="logout()">
+    <ion-label>Borrar Cuenta</ion-label>
+    <ion-icon slot="start" name="trash-outline" color="danger"></ion-icon>
+  </ion-item>
+</ion-content>

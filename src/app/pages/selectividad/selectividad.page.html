@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Calculadora selectividad</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <canvas baseChart [datasets]="data" [labels]="chartLabels" chartType="doughnut" [options]="chartOptions">
+
+  </canvas>
+  <h1 class="nota">{{notaDefinitiva}}</h1>
+  <ion-list lines="full" class="ion-no-margin ion-no-padding">
+    <ion-list-header>Bachillerato</ion-list-header>
+    <ion-item>
+      <ion-label>
+        Bachillerato
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaBach" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-list-header>Fase Obligatoria</ion-list-header>
+    <ion-item>
+      <ion-label>
+        Lengua
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaLengua" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Historia
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaHistoria" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Matemáticas
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaMate" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        Inglés
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaIngles" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-item> 
+      <ion-toggle [(ngModel)]="espeToggle" slot="end" (ionChange)="cambio()"></ion-toggle>   
+      <h2><strong>Especificas</strong></h2>
+    </ion-item>
+    <ion-item *ngIf="espeToggle">
+      <ion-label>
+        Especifica 1
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaEspe1" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="espeToggle">
+      <ion-label>
+        Especifica 2
+      </ion-label>
+      <ion-input type="number" [(ngModel)]="notaEspe2" (ionChange)="cambio()" placeholder="Nota"></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
